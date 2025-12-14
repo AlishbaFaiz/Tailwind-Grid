@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workable Clone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            myGreen: '#012620',
+            myLightGreen: '#f6fefb',
+            myBlue: '#00f5dc',
+            myDark: '#0f161e',
+            myYellow: '#ffca00',
+            myPurple: '#9c99ff',
+            myBlues: '#2ed5ff',
+            myBrown: '#ffdcbf',
+            myDarkp: '#220a3b',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-softBg text-gray-900">
+
+  <header class="bg-white shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+      <div>
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\Screenshot 2025-07-12 220856.png" alt="Logo" class="h-8 w-auto">
+      </div>
+      <nav class="hidden md:flex space-x-8 text-lg font-bold text-green-900">
+        <a href="#" class="hover:bg-green-50 px-3 py-1 rounded">Product</a>
+        <a href="#" class="hover:bg-green-50 px-3 py-1 rounded">Pricing</a>
+      </nav>
+      </nav>
+      <div class="flex items-center space-x-4 text-sm font-medium">
+        <a href="#" class="hover:bg-green-50 px-3 py-1 rounded hidden md:inline text-green-900">Log in</a>
+        <a href="#" class="border px-4 py-2 rounded hover:bg-green-50 hidden sm:inline text-green-900">Request a demo</a>
+        <a href="#" class="bg-green-900 text-white px-4 py-2 rounded hover:bg-green-800">Start a free trial</a>
+      </div>
+    </div>
+  </header>
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse lg:flex-row items-center gap-12">
+      <div class="text-center lg:text-left max-w-xl">
+        <h1 class="text-6xl sm:text-7xl font-bold text-green-900 my-6">
+          The future-ready</h1>
+        <h1 class="text-6xl sm:text-7xl font-bold text-green-900 my-6">
+          HR platform
+        </h1>
+        <p class="text-gray-700 text-2xl mb-8">
+          Redefining HR with intelligent tools to streamline hiring, employee data management, time tracking and payroll.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <a href="#" class="text-green-900 font-medium hover:text-green-600 font-bold text-lg">Request a demo →</a>
+          <a href="#" class="bg-green-900 text-white px-6 py-3 rounded hover:bg-green-800 text-lg font-semibold">Start a free trial →</a>
+        </div>
+      </div>
+      <div class="w-full max-w-2xl">
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\hero-image_2x.webp" alt="HR Platform Preview" class="w-auto h-auto">
+      </div>
+    </div>
+  </section>
+  <section class="bg-myGreen text-white py-20 px-4">
+    <div class="max-w-7xl mx-auto text-center">
+      <div class="inline-block bg-myBlue text-black text-sm font-bold px-6 py-3 rounded-full mb-6">
+        Candidate sourcing suite
+      </div>
+      <h2 class="text-3xl sm:text-6xl font-bold mb-4">
+        A complete talent<br class="hidden sm:inline">sourcing solution
+      </h2>
+      <p class="text-white text-lg max-w-2xl mx-auto mb-12">
+        Workable provides you with a powerful set of tools to source, attract,<br class="hidden sm:inline">and engage top talent with ease.
+      </p>
+      <div class="w-full max-w-5xl mx-auto rounded-lg overflow-hidden mb-16">
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\sourcing-solution-mob_2x.webp" alt="Talent Tool Image" class="w-full h-auto" />
+      </div>
+
+      <div class="flex flex-col gap-6 px-4 sm:px-6 lg:px-16 text-left">
+        <div class="flex flex-col lg:flex-row gap-6">
+          <div class="w-full lg:w-1/2 bg-white text-black p-6 rounded-lg shadow-md">
+            <h3 class="font-bold text-3xl mb-2">Post to 200+ job boards</h3>
+            <p class="text-lg">Reach millions of candidates with one click using Workable’s extensive job ad syndication network. Instantly post your job to top job boards across all industries in over 100 countries, and every major social media platform.</p>
+          </div>
+          <div class="w-full lg:w-1/2 bg-myBlue text-black p-6 rounded-lg shadow-md">
+            <h3 class="font-bold text-3xl mb-2">Great results on LinkedIn & Indeed</h3>
+            <p class="text-lg">As an Indeed Platinum and LinkedIn Preferred Partner, Workable’s integrations boost your job’s visibility. Apply with LinkedIn and Indeed Apply make applications easy, increasing conversion rates and attracting top talent.</p>
+          </div>
+        </div>
+        <div class="flex flex-col sm:flex-row lg:flex-row gap-6">
+          <div class="w-full sm:w-1/2 lg:w-1/3 bg-white text-black p-6 rounded-lg shadow-md relative">
+            <h3 class="font-bold text-3xl mb-2">Passive candidate sourcing tools</h3>
+            <p class="text-lg">Access a database of 400m+ profiles, use AI to identify suitable passive candidates and generate personalized outreach emails with one click.</p>
+            <br><span class="absolute bottom-4 right-4 text-black text-4xl">→</span>
+          </div>
+
+          <div class="w-full sm:w-1/2 lg:w-1/3 bg-white text-black p-6 rounded-lg shadow-md relative">
+            <h3 class="font-bold text-3xl mb-2">Employee referral program</h3>
+            <p class="text-lg">Set up your own internal job board and get more referrals with tools to spread the word and a gamified reward system.</p>
+            <br><span class="absolute bottom-4 right-4 text-black text-4xl">→</span>
+          </div>
+
+          <div class="w-full sm:w-1/2 lg:w-1/3 bg-white text-black p-6 rounded-lg shadow-md relative">
+            <h3 class="font-bold text-3xl mb-2">Careers page builder</h3>
+            <p class="text-lg">Create gorgeous, branded and customizable career sites that convert. Showcase your company culture and open positions. Our drag-and-drop editor makes creation easy, even for complete beginners.</p>
+            <br><span class="absolute bottom-4 right-4 text-black text-4xl">→</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-[#fff9f3] py-20">
+  <div class="max-w-7xl mx-auto text-center">
+    <div class="inline-block bg-myYellow text-black text-sm font-bold px-6 py-3 rounded-full mb-6">
+      Applicant tracking system
+    </div>
+    <h2 class="text-3xl sm:text-6xl font-bold mb-4">
+      A comprehensive<br class="hidden sm:inline">recruiting platform
+    </h2>
+    <p class="text-black text-lg max-w-2xl mx-auto mb-12">
+      From initial candidate review to final offer, Workable helps you identify and<br class="hidden sm:inline">secure top talent efficiently.
+    </p>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
+      <div class="flex flex-col lg:flex-row gap-10">
+        <div class="flex flex-col gap-6 w-full lg:w-2/5">
+          <div class="bg-white rounded-xl shadow-md p-6 mb-8">
+            <h3 class="font-bold text-3xl mb-2 text-left">Talent CRM database</h3>
+            <p class="text-lg text-left">Manage your talent pool in one searchable database. Access candidate profiles with all the information you need. Easily filter, move candidates through stages, and take actions in a few clicks.</p><br><br>
+          </div>
+          <div class="bg-white rounded-xl shadow-md p-6 relative">
+            <h3 class="font-bold text-3xl mb-2 text-left">Evaluation tools</h3>
+            <p class="text-lg text-left">Get access to customizable interview kits, scorecards, and science-backed assessments to standardize your hiring criteria across every role.</p>
+            <br><br><br><br><span class="absolute bottom-4 right-4 text-black text-4xl">→</span>
+          </div>
+        </div>
+        <div class="w-full lg:w-3/5 rounded-xl overflow-hidden">
+          <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\crm-database-mob_2x.webp" alt="CRM View" class="w-full h-auto rounded-xl shadow-md">
+        </div>
+      </div>
+      <div class="mt-12 flex flex-col lg:flex-row gap-6">
+        <div class="w-full lg:w-1/2 rounded-xl overflow-hidden">
+          <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\screening-assistant_2x.webp" alt="Matching Section" class="w-full h-auto rounded-xl shadow-md">
+        </div>
+        <div class="w-full lg:w-1/2 rounded-xl overflow-hidden">
+          <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\auto-schedule_2x.webp" alt="Calendar Section" class="w-full h-auto rounded-xl shadow-md">
+        </div>
+      </div>
+      <div class="flex flex-col gap-7 px-4 sm:px-4 lg:px-18 text-left mt-12">
+        <div class="flex flex-col lg:flex-row gap-6">
+          <div class="w-full lg:w-1/2 bg-white text-black p-6 rounded-lg shadow-md">
+            <h3 class="font-bold text-3xl mb-2">AI-assisted applicant screening</h3>
+            <p class="text-lg">Use AI-powered resume screening tools to parse and evaluate candidate experience quickly. Access one-way video interviews to evaluate at scale.</p>
+            <br>
+          </div>
+          <div class="w-full lg:w-1/2 bg-white text-black p-6 rounded-lg shadow-md">
+            <h3 class="font-bold text-3xl mb-2">Self-service interview scheduling</h3>
+            <p class="text-lg">Offer self-service interview booking to candidates and automated calendar syncing for your hiring team, with all communications viewable in one place.</p>
+            <br>
+          </div>
+        </div>
+        <div class="flex flex-col sm:flex-row lg:flex-row gap-6">
+          <div class="w-full sm:w-1/2 lg:w-1/3 bg-white text-black p-6 rounded-lg shadow-md relative">
+            <h3 class="font-bold text-3xl mb-2">Candidate experience</h3>
+            <p class="text-lg">Offer mobile-optimized applications and auto-fill options, all in your candidate’s native language. Engage them through integrated emails and SMS texting, achieving 98% response...</p>
+            <br><br><span class="absolute bottom-4 right-4 text-black text-4xl">→</span>
+          </div>
+
+          <div class="w-full sm:w-1/2 lg:w-1/3 bg-white text-black p-6 rounded-lg shadow-md relative">
+            <h3 class="font-bold text-3xl mb-2">Flexible workflows</h3>
+            <p class="text-lg">Tailor your hiring process with custom pipelines, profiles, and permissions. Manage requisitions, control budgets, set approval flows, and configure granular access rights at each stage.</p>
+            <br><br><span class="absolute bottom-4 right-4 text-black text-4xl">→</span>
+          </div>
+
+          <div class="w-full sm:w-1/2 lg:w-1/3 bg-white text-black p-6 rounded-lg shadow-md relative">
+            <h3 class="font-bold text-3xl mb-2">Offer management</h3>
+            <p class="text-lg">Create and send offer letters using customizable templates. Manage approval flows, collect e-signatures, and run integrated background checks - all within Workable.</p>
+            <br><br><span class="absolute bottom-4 right-4 text-black text-4xl">→</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="bg-myDark py-20 px-4 sm:px-6 lg:px-16">
+  <div class="text-center">
+    <div class="inline-block bg-myPurple text-black text-sm font-bold px-6 py-3 rounded-full mb-6 mx-auto">
+      HR information system
+    </div>
+    <h2 class="text-3xl sm:text-6xl font-bold mb-4 text-white">
+      A flexible employee<br class="hidden sm:inline">management system
+    </h2>
+    <p class="text-white text-lg max-w-2xl mx-auto mb-12">
+      Manage all aspects of the employee lifecycle in one platform, from<br class="hidden sm:inline">onboarding to performance reviews, and more.
+    </p>
+  </div>
+  <div class="max-w-7xl mx-auto space-y-10">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div class="lg:col-span-2 bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\hire-onboarding-mob_2x.webp" alt="New hire onboarding" class="w-full h-auto">
+      </div>
+      <div class="bg-white text-black p-6 rounded-xl shadow-md flex flex-col justify-center">
+        <h3 class="text-3xl font-bold mb-2">New hire onboarding</h3>
+        <p class="text-lg">Build personalized welcome portals with role-specific workflows. Automate paperwork with e-signatures, create custom onboarding tasks, track progress, and instantly notify managers. Manage it all in one efficient, automated system. and access company documents, with built-in approval flows and change tracking.</p>
+        <br><br><br>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white text-black p-6 rounded-xl shadow-md">
+        <h3 class="text-3xl font-bold mb-2">Self-service employee portal</h3>
+        <p class="text-lg">Enable employees to manage their own HR tasks, update personal info, and access company documents, with built-in approval flows and change tracking. and access company documents, with built-in approval flows and change tracking. and access company documents, with built-in approval flows and change tracking.</p>
+      </div>
+      <div class="bg-white text-black p-6 rounded-xl shadow-md">
+        <h3 class="text-3xl font-bold mb-2">Performance review tools</h3>
+        <p class="text-lg">Self & manager reviews, automated reminders, and real time tracking. Flexible to suit your process, with reports to monitor and calibrate results. and access company documents, with built-in approval flows and change tracking. and access company documents, with built-in approval flows and change tracking.</p>
+      </div>
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\performance-management.webp" alt="Review chart" class="w-full h-auto">
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\hr-data.webp" alt="Org chart" class="w-full h-auto">
+      </div>
+      <div class="flex flex-col gap-6">
+        <div class="bg-white text-black p-6 rounded-xl shadow-md">
+          <h3 class="text-3xl font-bold mb-2">System of record for all HR data</h3>
+          <p class="text-lg">Store and organize all employee data with customizable profiles. Track role history and compensation. Maintain an automated org chart reflecting real-time company structure. and access company documents, with built-in approval flows and change tracking. and access company documents, with built-in approval flows and change tracking.</p>
+          <br><br>
+        </div>
+        <div class="bg-white text-black p-6 rounded-xl shadow-md">
+          <h3 class="text-3xl font-bold mb-2">Digital document and e-signature management</h3>
+          <p class="text-lg">Control company documents from a central hub. Create, distribute, and track everything with customizable templates, e-signatures, and automated reminders. and access company documents, with built-in approval flows and change tracking. and access company documents, with built-in approval flows and change tracking.</p>
+          <br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="bg-[#fff5ee] py-20 px-4 sm:px-6 lg:px-16">
+  <div class="text-center">
+    <div class="inline-block bg-myBlues text-black text-sm font-bold px-6 py-3 rounded-full mb-6 mx-auto">
+      Time and attendance system
+    </div>
+    <h2 class="text-3xl sm:text-6xl font-bold mb-4 text-black">
+      An easy way to track time<br class="hidden sm:inline">and make payroll
+    </h2>
+    <p class="text-black text-sm max-w-2xl mx-auto mb-12">
+      From clock-ins to time off, with detailed approval workflows, Workable helps you handle attendance,<br class="hidden sm:inline">leave, and payroll reporting in one place.
+    </p>
+  </div>
+
+  <div class="max-w-7xl mx-auto space-y-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="flex flex-col gap-6">
+        <div class="bg-white text-black p-6 rounded-xl shadow-md">
+          <h3 class="text-3xl font-bold mb-2">Time off and PTO management</h3>
+          <p class="text-lg">
+            Set up multiple time off policies with self-service leave tracking. Customize holiday schedules and work shifts. Manage approval flows, track balances, and generate reports for payroll and compliance.
+          </p>
+          <br><br><br><br>
+        </div>
+        <div class="bg-white text-black p-6 rounded-xl shadow-md">
+          <h3 class="text-3xl font-bold mb-2">Time and attendance tracking</h3>
+          <p class="text-lg">
+            Record work hours with user-friendly, geolocation-specific clock-in/out and timesheet submission features. Generate detailed attendance reports for payroll and compliance.
+          </p>
+          <br><br><br><br>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\time-off-mob.webp" alt="Org chart" class="w-full h-auto">
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\attendance_2x.webp" alt="Review chart" class="w-full h-auto">
+      </div>
+      <div class="text-black p-6 rounded-xl shadow-md bg-myBrown">
+        <h3 class="text-3xl font-bold mb-2">One-click payroll reporting</h3>
+        <p class="text-lg">
+          Generate custom payroll reports across multiple entities and pay cycles in seconds. Integrate your data for real-time data synchronization with leading providers like ADP Workforce Now and Xero.
+        </p>
+      </div>
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\Example_2x.webp" alt="Review chart" class="w-full h-auto">
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="bg-myDarkp py-20 px-4 sm:px-6 lg:px-16">
+  <div class="text-center mb-12">
+    <h2 class="text-3xl sm:text-6xl font-bold mb-4 text-white">
+      AI that works for you
+    </h2>
+    <p class="text-white text-lg max-w-2xl mx-auto">
+      Bringing the power of AI to your fingertips.
+    </p>
+  </div>
+  <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="flex flex-col gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\email-response-rates.webp" alt="Policy visual" class="w-full h-auto">
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\salary-estimator.webp" alt="Employee DB visual" class="w-full h-auto">
+        </div>
+      </div>
+      <div class="bg-white text-black p-6 rounded-xl shadow-md">
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\ai-screening-mob_2x.webp" alt="Reports and Analytics" class="w-full h-auto">
+      </div>
+    </div>
+    <div class="flex flex-col gap-6">
+      <div class="text-black p-6 rounded-xl shadow-md bg-white">
+        <h3 class="text-3xl font-bold mb-2">One-click payroll reporting</h3>
+        <p class="text-lg">
+          Generate custom payroll reports across multiple entities and pay cycles in seconds. Integrate your data for real-time data synchronization with leading providers like ADP Workforce Now and Xero.
+        </p><br><br><br>
+      </div>
+      <div class="text-black p-6 rounded-xl shadow-md bg-white">
+        <h3 class="text-3xl font-bold mb-2">One-click payroll reporting</h3>
+        <p class="text-lg">
+          Generate custom payroll reports across multiple entities and pay cycles in seconds. Integrate your data for real-time data synchronization with leading providers like ADP Workforce Now and Xero.
+        </p><br><br><br>
+      </div>     
+      <div class="text-black p-6 rounded-xl shadow-md bg-white">
+        <h3 class="text-3xl font-bold mb-2">One-click payroll reporting</h3>
+        <p class="text-lg">
+          Generate custom payroll reports across multiple entities and pay cycles in seconds. Integrate your data for real-time data synchronization with leading providers like ADP Workforce Now and Xero.
+        </p>
+        <br><br><br>
+      </div>
+    </div>
+
+  </div>
+  </section>
+  <section class="bg-[#fef1e1] py-20 px-4 sm:px-6 lg:px-16">
+  <div class="text-center">
+    <h2 class="text-3xl sm:text-6xl font-bold mt-12 mb-4 text-black">
+      Built for demanding<br class="hidden sm:inline">businesses
+    </h2>
+    <p class="text-black text-lg max-w-2xl mx-auto mb-12">
+      Designed to meet the highest standards for seamless performance,<br class="hidden sm:inline">scalability and reliability for businesses that need to stay ahead in a fast-paced market.
+    </p>
+  </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mx-20">
+      <div class="bg-white rounded-xl shadow-md overflow-hidden">
+        <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\reporting-tools.webp" alt="Org chart" class="w-full h-auto">
+      </div>
+      <div class="flex flex-col gap-6">
+        <div class="bg-[#fde8ce] text-black p-6 rounded-xl shadow-md">
+          <h3 class="text-3xl font-bold mb-2">Powerful reporting tools</h3>
+          <p class="text-lg">Get visibility into your work, your process, and your results with pre-built or custom reports. Share beautiful reports with your team, push data to your favorite BI tool, or create custom automations using our API.</p>
+          <br>
+        </div>
+        <div class="bg-[#fde8ce] text-black p-6 rounded-xl shadow-md">
+          <h3 class="text-3xl font-bold mb-2">270+ integrations</h3>
+          <p class="text-lg">Works seamlessly with your existing tools. Connect to email, calendar, Slack, video conferencing, productivity suites, analytics platforms, and HR tech from assessments to payroll.</p>
+          <br><span class="ml-80 pl-40 text-black text-5xl">→</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mx-20 mt-8">
+    <div class="bg-[#bee9f4] text-black p-6 rounded-xl shadow-md flex flex-col justify-center ">
+      <h3 class="text-3xl font-bold mb-2">New hire onboarding</h3>
+      <p class="text-lg">Build personalized welcome portals with role-specific workflows. Automate paperwork with e-signatures, create custom onboarding tasks, track progress, and instantly notify managers. Manage it all in one efficient, automated system. and access company documents, with built-in approval flows and change tracking.</p>
+      <br><a href="#" alt="link"><span class="text-black text-sm font-bold hover:text-green-600">Download on iOS or Android →</span></a>
+    </div>
+    <div class="lg:col-span-2 bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\mobile-first_2x.webp" alt="New hire onboarding" class="w-full h-auto">
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto space-y-10">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mx-5 mt-8">
+      <div class="lg:col-span-2 bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\best-rated_2x.webp" alt="New hire onboarding" class="w-full h-auto rounded-xl">
+    </div>
+    <div class="bg-white text-black rounded-xl shadow-md flex flex-col justify-center overflow-hidden">
+      <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\average-reply_2x.webp" alt="New hire onboarding" class="w-full h-auto rounded-xl">
+    </div>
+  </div>
+  <div class="flex flex-col lg:flex-row gap-6">
+    <div class="w-full lg:w-1/2 bg-white text-black p-6 rounded-lg shadow-md">
+      <h3 class="font-bold text-3xl mb-2">Enterprise-grade security & compliance</h3>
+      <p class="text-lg">Trust Workable with your data, backed by ISO 27001, 27017, SOC 2 Type II, and SOC 3 certifications. Stay compliant with GDPR, EEO and CCPA using simple, automated policy toggles. Maintain data integrity with audit trails tracking all changes.</p>
+      <br>
+      <span class="ml-80 pl-40 text-black text-5xl">→</span>
+    </div>
+    <div class="w-full lg:w-1/2 bg-white text-black p-6 rounded-lg shadow-md">
+      <h3 class="font-bold text-3xl mb-2">Outstanding support & training</h3>
+      <p class="text-lg">Access award-winning, 24/7 support and extensive learning resources, from video courses to in-product help. Schedule one-on-one training or get assistance in your time zone from our global team.</p>
+      <br><br><br>
+      <a href="#" alt="link"><span class="text-black text-sm font-bold hover:text-green-600">Real-time support dashboard →</span></a>
+    </div>
+  </div>
+  </section>
+  <section class="bg-[#0b2d26] text-[#b5e3c8] py-16">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-12">
+      Trusted by thousands<br class="hidden md:block"> of businesses like yours
+    </h2>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 mb-12">
+      <div>
+        <p class="text-2xl md:text-3xl font-bold">30,000+</p>
+        <p class="uppercase text-sm font-semibold text-white">companies</p>
+      </div>
+      <div>
+        <p class="text-2xl md:text-3xl font-bold">400M</p>
+        <p class="uppercase text-sm font-semibold text-white">people</p>
+      </div>
+      <div>
+        <p class="text-2xl md:text-3xl font-bold">2.1M</p>
+        <p class="uppercase text-sm font-semibold text-white">hires</p>
+      </div>
+      <div>
+        <p class="text-2xl md:text-3xl font-bold">100+</p>
+        <p class="uppercase text-sm font-semibold text-white">countries</p>
+      </div>
+      <div>
+        <p class="text-2xl md:text-3xl font-bold">98%</p>
+        <p class="uppercase text-sm font-semibold text-white">satisfaction</p>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-8 text-left max-w-4xl mx-auto text-[#b5e3c8]">
+      <div>
+        <p class="text-lg md:text-xl font-semibold text-white mb-2">
+          Forbes Advisor named Workable the Best AI‑Powered Recruiting Platform for 2024.
+        </p>
+        <p class="text-green-300 mt-4">★★★★★</p>
+      </div>
+      <div>
+        <p class="text-lg md:text-xl font-semibold text-white mb-2">
+          95% of reviewers would recommend Workable to a friend or colleague.
+        </p>
+        <p class="text-green-300 mt-4 font-bold">GetApp Category Leaders</p>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="bg-cover bg-center bg-no-repeat py-20 text-center text-white relative" style="background-image: url('prefooter-bg.jpg');">
+  <div class="absolute inset-0 bg-black bg-opacity-10"></div>
+  <div class="relative z-10 max-w-3xl mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-black">Try out Workable</h2>
+    <p class="mb-6 text-lg text-black">Explore our full platform with a 15-day free trial.<br> No credit card required. Post jobs, hire faster, and manage your people effortlessly with our all-in-one platform.</p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <a href="#" class="bg-white border text-[#003e38] font-semibold px-6 py-3 rounded-md shadow hover:bg-gray-100">Request a demo</a>
+      <a href="#" class="bg-[#004a42] text-white font-semibold px-6 py-3 rounded-md hover:bg-[#003e38]">Start a free trial</a>
+    </div>
+  </div>
+  </section>
+  <footer class="bg-white text-gray-800 border-t pt-12 pb-6 text-sm">
+  <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8">
+    <div>
+      <h4 class="font-semibold mb-2">Product</h4>
+      <ul class="space-y-1">
+        <li><a href="#" class="hover:underline">Pricing</a></li>
+        <li><a href="#" class="hover:underline">Features</a></li>
+        <li><a href="#" class="hover:underline">AI technology</a></li>
+        <li><a href="#" class="hover:underline">Integrations</a></li>
+        <li><a href="#" class="hover:underline">Security</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold mb-2">Resources</h4>
+      <ul class="space-y-1">
+        <li><a href="#" class="hover:underline">Help center</a></li>
+        <li><a href="#" class="hover:underline">Resource library</a></li>
+        <li><a href="#" class="hover:underline">Developer API</a></li>
+        <li><a href="#" class="hover:underline">Search for jobs</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-semibold mb-2">Workable</h4>
+      <ul class="space-y-1">
+        <li><a href="#" class="hover:underline">About us</a></li>
+        <li><a href="#" class="hover:underline">Work with us</a></li>
+        <li><a href="#" class="hover:underline">Backstage</a></li>
+        <li><a href="#" class="hover:underline">Accessibility</a></li>
+        <li><a href="#" class="hover:underline">Status</a></li>
+      </ul>
+    </div>
+    <div class="bg-gray-100 rounded-md w-auto">
+      <img src="C:\Users\Computer Point\OneDrive\Desktop\tailwind\Screenshot 2025-07-14 232258.png" alt="footer Image">
+    </div>
+  </div>
+  <div class="border-t mt-8 pt-4 px-4 max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-gray-500">
+      <p>© Workable Technology Limited 2012–2025</p>
+      <div class="flex flex-wrap justify-center md:justify-start gap-4">
+        <a href="#" class="hover:underline">Legal</a>
+        <a href="#" class="hover:underline">Privacy policy</a>
+        <a href="#" class="hover:underline">Cookie settings</a>
+        <a href="#" class="hover:underline">Do not sell/share my personal information</a>
+        <a href="#" class="hover:underline">Modern slavery statement</a>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+
+</body>
+</html>
+
+
